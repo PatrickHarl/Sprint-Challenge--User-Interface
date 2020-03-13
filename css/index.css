@@ -224,3 +224,108 @@ footer nav a {
     background-color:dodgerblue;
 
 }
+
+.about {
+
+    padding:20px 10px 20px 20px;
+    margin-top:-25px;
+
+}
+.about p {
+
+    font-size:14px;
+
+}
+.mid-container {
+
+
+        border-top:1px dashed black;
+        
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+
+}
+.mid-container div {
+
+    padding-top:27px;
+    width:48%;
+
+}
+.info {
+
+    
+    display:flex;
+    flex-direction:column;
+    
+}
+.strategy {
+
+    padding-left:12px;
+    padding-bottom:15px;
+    border-bottom:1px dashed grey;
+
+}
+.places {
+
+
+    padding-left:12px;
+    margin-top:30px;
+    padding-bottom:15px;
+    border-bottom:1px dashed black;
+
+}
+.how {
+
+    padding-right:12px;
+    border-bottom:1px dashed grey;
+
+}
+.collab {
+
+    margin-top:30px;
+    padding-right:12px;
+    border-bottom:1px dashed black;
+
+}
+.strategy h3 {
+
+    padding-top:10px;
+
+}
+.how h3 {
+
+    padding-top:10px;
+
+}
+.collab h3 {
+
+    padding-top:10px;
+
+}
+.places h3 {
+
+    padding-top:10px;
+
+}
+.learn-btn {
+
+    border:1px solid black;
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px 0px;
+    margin-top:15px;
+    width:35%;
+
+
+}
+.together {
+
+    padding-top:45px;
+    padding-bottom:30px;
+    padding-left:15px;
+
+}
