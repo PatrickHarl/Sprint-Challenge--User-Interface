@@ -179,6 +179,13 @@ footer nav a {
 .box1 {
 
     background-color:teal;
+    
+
+}
+.box1:hover {
+
+    animation-name:changebox1;
+    animation-duration:3s;
 
 }
 .box2 {
@@ -331,5 +338,21 @@ footer nav a {
     padding-top:45px;
     padding-bottom:30px;
     padding-left:15px;
+
+}
+@keyframes changebox1 {
+    0% {background-color: teal;}
+    50% {background-color: black;}
+    100% {background-color: teal;}
+  }
+
+@media only screen and (max-width: 600px) {
+
+    .mid-container div {
+
+        width:100%;
+        max-width:450px;
+
+    }
 
 }
